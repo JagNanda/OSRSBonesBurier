@@ -1,0 +1,26 @@
+<manifest>
+    <main-class>com.juggy3.bots.bones_burier_bot.BoneBurier</main-class>
+    <name>Juggy's BoneBurier</name>
+    <tag-line>Gets selected bones from the bank and buries them</tag-line><!--Max of 50 chars-->
+    <description>Buries any type of bones near a bank</description><!--Max of 110 chars-->
+    <version>1.0.1</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>PRAYER</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>BoneBurier</internal-id>
+    <!--The rest are optional-->
+    <open-source>true</open-source>
+    <hidden>false</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>public</access>
+    <tags>
+        <tag>prayer</tag>
+    </tags>
+    <resources>
+        <resource>com/juggy3/bots/bones_burier_bot/BoneBurier.fxml</resource>
+        <resource>com/juggy3/bots/bones_burier_bot/ui/BonesInfo.fxml</resource>
+    </resources>
+</manifest>

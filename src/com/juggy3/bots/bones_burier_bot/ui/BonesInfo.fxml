@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="266.0" prefWidth="650.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="265.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="59.0" layoutY="87.0" text="Bones buried per hour:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="127.0" text="Prayer XP per Hour:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="147.0" text="Prayer Levels Gained">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="167.0" text="Runtime:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="247.0" layoutY="36.0" text="Juggy's Bone Burier">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBonesPerHour" layoutX="492.0" layoutY="83.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblXpPerHour" layoutX="492.0" layoutY="123.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrayerLevelsGained" layoutX="492.0" layoutY="143.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRunTime" layoutX="492.0" layoutY="163.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="187.0" text="Current Task:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCurrentTask" layoutX="492.0" layoutY="183.0" text="Starting Bot...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+         <Label layoutX="59.0" layoutY="67.0" text="Bones buried:">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+         <Label fx:id="lblBonesBuried" layoutX="492.0" layoutY="63.0" text="0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+         <Label layoutX="59.0" layoutY="107.0" text="XP Gained">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+         <Label fx:id="lblXpGained" layoutX="492.0" layoutY="103.0" text="0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+   </children>
+</Pane>
+</fx:root>
